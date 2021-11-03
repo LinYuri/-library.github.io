@@ -45,6 +45,7 @@
             -webkit-transition-duration: 0.4s;
             transition-duration: 0.4s;
             border-color:#d8bc7f ;
+            text-align: center;
            
             }
         #b1:hover{background-color: #d8bc7f; 
@@ -67,6 +68,7 @@
         d{
             box-shadow: 0 1px;padding-bottom:5px;
         }
+        #Q{text-align: center; font-size: 16pt;}
 
         </style>
 </head>
@@ -93,27 +95,19 @@
     <form method="post" action="mailto:wendy20020213@gmail.com?subject=library " enctype="text/plain" >
     <table id="form" border="1" style="font-size: 15pt; padding: 30px; border: none;">
        
-       <tr>
-        <td>您的貴姓:<p><div padding: 10px;></div><input name="name" type="text" style="background-color: unset;"></td>
-        <td></td>
-       </tr>
-       <tr>
-           <td><p>請問您曾經是否有去過中原大學的張靜愚紀念圖書館?<input name="come" type="radio" value="yes">有<input name="come" type="radio" value="no">沒有</td>
-           <td></td>
-       </tr>
-       <tr>
-           <td><p>請問在參閱過本網站之後，是否有增加您對於張靜愚紀念圖書館的了解以及前往的意願?<input name="interesting" type="radio" value="yes">有<input name="interesting" type="radio" value="no">沒有</td>
-           <td></td>
-       </tr>
-       <tr>
-           <td><p>您對於我們的網站給我們提供的建議(選填):<div><textarea cols="100" rows="10" style="background-color: unset; "></textarea></div></td>
-           <td></td>
-       </tr>
-       <tr>
-           <td id="tit"><input id="b1" type="submit" value="送出"><input id="b1" type="reset" value="重填"></td>
-       </tr>
+        <p id="Q">您的貴姓:<div></div><div id="Q"><input name="name" type="text" style="background-color: unset; text-align: center;"></div></p>
+        <br>
+           <p id="Q">請問您曾經是否有去過中原大學的張靜愚紀念圖書館?<input name="come" type="radio" value="yes">有<input name="come" type="radio" value="no">沒有</p>
+        <br>
+           <p id="Q">請問在參閱過本網站之後，是否有增加您對於張靜愚紀念圖書館的了解以及前往的意願?<input name="interesting" type="radio" value="yes">有<input name="interesting" type="radio" value="no">沒有</p>
+        <br>
+        
+           <p id="Q">您對於我們的網站給我們提供的建議(選填):<div id="Q"><textarea cols="100" rows="10" style="background-color: unset; "></textarea></div></p>
+           
+        <br>
+           <div id="Q"><input id="b1" type="submit" value="送出"><input id="b1" type="reset" value="重填"></div>
        
-   </table><p>
+   </table>
   
 </form>
 
